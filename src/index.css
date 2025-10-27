@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Barak Advert Brand Colors - Orange & White Theme */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 18%;
+
+    /* Primary: Bold Orange */
+    --primary: 24 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Primary Hover: Lighter Orange */
+    --primary-hover: 24 100% 60%;
+    
+    /* Secondary: Light Orange Tint */
+    --secondary: 24 100% 96%;
+    --secondary-foreground: 24 100% 50%;
+
+    /* Muted: Soft Gray */
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    /* Accent: Orange with White Text */
+    --accent: 24 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 24 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Neon Glow Effect */
+    --neon-glow: 24 100% 50%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(24 100% 50%), hsl(24 100% 60%));
+    --gradient-hero: linear-gradient(180deg, hsl(24 100% 50% / 0.1), hsl(24 100% 50% / 0.05));
+    
+    /* Shadows */
+    --shadow-orange: 0 10px 40px -10px hsl(24 100% 50% / 0.3);
+    --shadow-glow: 0 0 40px hsl(24 100% 50% / 0.4);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 0 0% 10%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 15%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 15%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 24 100% 55%;
+    --primary-foreground: 0 0% 10%;
+    
+    --primary-hover: 24 100% 65%;
+
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 24 100% 55%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 25%;
+    --input: 0 0% 25%;
+    --ring: 24 100% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', 'Poppins', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Neon Glow Animation */
+  @keyframes neon-pulse {
+    0%, 100% {
+      filter: drop-shadow(0 0 5px hsl(var(--neon-glow))) drop-shadow(0 0 15px hsl(var(--neon-glow) / 0.5));
+    }
+    50% {
+      filter: drop-shadow(0 0 10px hsl(var(--neon-glow))) drop-shadow(0 0 30px hsl(var(--neon-glow) / 0.7));
+    }
+  }
+
+  .neon-text {
+    animation: neon-pulse 2s ease-in-out infinite;
+  }
+
+  /* Parallax Effect */
+  .parallax {
+    will-change: transform;
+    transition: transform 0.1s ease-out;
+  }
+}

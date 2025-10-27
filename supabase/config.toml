@@ -1,0 +1,5 @@
+[project]
+name = "barak-advert"
+
+[functions.send-quote-email]
+verify_jwt = false
