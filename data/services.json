@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "id": "advertising",
+      "name": "Advertising",
+      "description": "Professional billboard and signage solutions for maximum visibility",
+      "icon": "📢",
+      "basePrice": 500,
+      "features": ["Custom designs", "Large format printing", "Weather-resistant", "Quick turnaround"]
+    },
+    {
+      "id": "neon",
+      "name": "Neon Lights",
+      "description": "Custom neon signs that make your brand glow",
+      "icon": "✨",
+      "basePrice": 800,
+      "features": ["Custom shapes", "Energy efficient", "Long-lasting", "Professional installation"]
+    },
+    {
+      "id": "lightbox",
+      "name": "Lightbox",
+      "description": "Illuminated lightbox signs for retail and corporate spaces",
+      "icon": "💡",
+      "basePrice": 600,
+      "features": ["LED technology", "Customizable", "Durable materials", "Easy maintenance"]
+    },
+    {
+      "id": "tshirt",
+      "name": "T-Shirt Printing",
+      "description": "High-quality custom t-shirt printing with vibrant colors",
+      "icon": "👕",
+      "basePrice": 50,
+      "features": ["Direct-to-garment", "Screen printing", "Bulk orders", "Fast delivery"]
+    },
+    {
+      "id": "mug",
+      "name": "Mug Printing",
+      "description": "Personalized ceramic mugs perfect for gifts and branding",
+      "icon": "☕",
+      "basePrice": 15,
+      "features": ["High-quality ceramic", "Dishwasher safe", "Vibrant colors", "Custom designs"]
+    },
+    {
+      "id": "gifts",
+      "name": "Gift Shop",
+      "description": "Complete merchandise solutions with branded items",
+      "icon": "🎁",
+      "basePrice": 100,
+      "features": ["Wide selection", "Bulk discounts", "Custom branding", "Quality assured"]
+    }
+  ]
+}
