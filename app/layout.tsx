@@ -20,7 +20,14 @@ export const metadata: Metadata = {
     description: "Premium printing and sign services for your business",
     type: "website",
   },
-    generator: 'v0.app'
+  // Provide favicon/icon metadata so Next.js and browsers can find the favicon
+  icons: {
+    // Primary icon served from /public
+    icon: [
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+    ],
+  },
+  generator: "v0.app",
 }
 
 export default function RootLayout({
