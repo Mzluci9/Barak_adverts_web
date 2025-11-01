@@ -17,7 +17,7 @@ const TikTok = () => (
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-slate-950 to-black text-white relative overflow-hidden">
+    <footer className="bg-linear-to-b from-slate-950 to-black text-white relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
@@ -122,7 +122,7 @@ export default function Footer() {
                   { icon: Instagram, label: "Instagram", href: "#" },
                   { icon: Twitter, label: "Twitter", href: "#" },
                   { icon: Linkedin, label: "LinkedIn", href: "#" },
-                  { icon: TikTok, label: "TikTok", href: "#" },
+                  { icon: TikTok, label: "TikTok", href: "https://www.tiktok.com/@barakadvert?_r=1&_t=ZM-912jTA13xuO" },
                 ].map(({ icon: Icon, label, href }) => (
                   <a
                     key={label}
@@ -137,7 +137,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent mb-8"></div>
+          <div className="h-px bg-linear-to-r from-transparent via-slate-700 to-transparent mb-8"></div>
 
           {/* BOTTOM SECTION */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-slate-400">

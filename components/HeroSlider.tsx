@@ -161,7 +161,7 @@ export default function HeroSlider() {
           sizes="100vw"
         />
         {/* ORANGE GRADIENT OVERLAY FOR TEXT READABILITY */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-black/60 via-black/40 to-transparent" />
       </div>
 
       {/* SLIDE CONTENT */}
