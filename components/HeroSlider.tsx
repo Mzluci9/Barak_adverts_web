@@ -29,7 +29,7 @@ const slides: Slide[] = [
     id: 1,
     title: "Professional Advertising Solutions",
     subtitle: "Eye-catching billboards and signage for maximum impact",
-    image: "/professional-advertising-billboard-installation-go.jpg",
+    image: "/illuminated-lightbox-sign-storefront-warm-orange-g.jpg",
     primaryCTA: "Request Quote",
     secondaryCTA: "See Portfolio",
   },
