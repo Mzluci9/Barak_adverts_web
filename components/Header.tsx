@@ -67,7 +67,7 @@ export default function Header() {
           {/* LOGO - Using uploaded Barak Advert logo image */}
           <Link href="/" className="flex items-center gap-2">
             <Image src="/barak-logo.jpg" alt="Barak Advert Logo" width={40} height={40} className="h-10 w-auto" />
-            <span className="font-bold text-xl text-black hidden sm:inline">Barak Advert</span>
+            <span className="font-bold text-xl text-orange-400 hidden sm:inline">Barak Advert</span>
           </Link>
 
           {/* DESKTOP NAVIGATION */}
