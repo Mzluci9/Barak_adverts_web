@@ -127,7 +127,7 @@ export default function Footer() {
                   <a
                     key={label}
                     href={href}
-                    className="w-10 h-10 bg-slate-900 hover:bg-primary text-slate-400 hover:text-white rounded-lg flex items-center justify-center transition-all duration-300 group hover:scale-110"
+                    className="w-10 h-10 bg-slate-900 hover:bg-primary text-slate-400 hover:text-black rounded-lg flex items-center justify-center transition-all duration-300 group hover:scale-110"
                     title={label}
                   >
                     <Icon className="w-5 h-5 group-hover:rotate-12 transition-transform" />
