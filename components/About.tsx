@@ -25,7 +25,7 @@ export default function About() {
             {/* VALUES */}
             <div className="space-y-4">
               <div className="flex gap-4">
-                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center shrink-0">
                   <span className="text-white font-bold text-xl">✓</span>
                 </div>
                 <div>
@@ -34,7 +34,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center shrink-0">
                   <span className="text-white font-bold text-xl">✓</span>
                 </div>
                 <div>
@@ -43,7 +43,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center shrink-0">
                   <span className="text-white font-bold text-xl">✓</span>
                 </div>
                 <div>
